@@ -1,0 +1,96 @@
+/* Respuestas */
+.containerRespuesta {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(20, 40, 80, 0.75), rgba(20, 40, 80, 0.75)), url(/portafolio/EmpleaT/img/mask-challenge-1-e1589802293174.jpg);
+}
+
+.containerRespuesta .respuesta h3 {
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+.containerRespuesta .respuesta svg {
+  height: 200px;
+  color: #f4f4f4;
+}
+/* Respuestas */
+
+/* Paso1 */
+.PasoUno {
+  background-color: #f4f4f4;
+}
+
+.PasoUno .pasoTitulo h3 {
+  font-weight: 600;
+  color: #00A8CC;
+}
+
+.PasoUno .pasoInfo h4 {
+  font-weight: 600;
+  color: #142850;
+}
+
+.PasoUno .pasoInfo hr {
+  width: 60%;
+  border: 1px solid #142850;
+}
+
+.PasoUno .pasoInfo p {
+  color: #142850;
+}
+
+.PasoUno .pasoInfo span {
+  color: #00A8CC;
+}
+
+.PasoUno .pasoInfo span a {
+  color: #142850;
+  transition: 0,7s;
+}
+.PasoUno .pasoInfo span a:hover {
+  font-weight:600 ;
+  color: #142850;
+  transition: 0,7s;
+}
+/* Paso1 */
+
+/* Paso2 */
+.PasoDos {
+  background-color: #00A8CC;
+}
+
+.PasoDos .pasoTitulo h3 {
+  font-weight: 600;
+  color: #f4f4f4;
+}
+
+.PasoDos .pasoInfo h4 {
+  font-weight: 600;
+  color: #142850;
+}
+
+.PasoDos .pasoInfo hr {
+  width: 60%;
+  border: 1px solid #142850;
+}
+
+.PasoDos .pasoInfo p {
+  color: #f4f4f4;
+}
+/* Paso2 */
+
+/* Paso3 */
+.PasoTres {
+  background-color: #142850;
+}
+
+.PasoTres .pasoTitulo h3 {
+  font-weight: 600;
+  color: #f4f4f4;
+}
+
+.PasoTres .pasoInfo p {
+  color: #f4f4f4;
+}
+/* Paso3 */

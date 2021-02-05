@@ -1,0 +1,65 @@
+/* Perfil Sidebar */
+.containerPerfilPublico .perfilPublicoSide {
+  background-color: #142850;
+  border-radius: 10px;
+}
+
+.containerPerfilPublico .perfilPublicoSide img {
+  height: 100px;
+  width: 100px;
+  border: 3px solid #f4f4f4;
+}
+
+.containerPerfilPublico .perfilPublicoSide .perfilTitleTecnico {
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+.containerPerfilPublico .perfilPublicoSide .perfilProfesionTecnico {
+  color: #00A8CC;
+  font-weight: 600;
+}
+
+.containerPerfilPublico .perfilPublicoSide .perfilUbicacion {
+  color: #f4f4f4;
+}
+
+.containerPerfilPublico .perfilPublicoSide .perfilUbicacion i {
+  color: #00A8CC;
+}
+
+.containerPerfilPublico .perfilPublicoSide .perfilDescripcion {
+  color: #f4f4f4;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.containerPerfilPublico .perfilPublicoSide hr {
+  border: 1px solid #00A8CC;
+}
+
+.containerPerfilPublico .perfilPublicoSide  .perfilTitleRecomendacion {
+  color: #00A8CC;
+  font-weight: 600;
+}
+
+.containerPerfilPublico .perfilPublicoSide .perfilClasificación {
+  color: #f4f4f4;
+  font-weight: 600;
+}
+/* Perfil Sidebar */
+
+/* Perfil Trabajos */
+.containerPerfilPublico .perfilPublicoTrabajos {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+.containerPerfilPublico .perfilPublicoTrabajos .trabajosTitle {
+  color: #00A8CC;
+  font-weight: 600;
+}
+
+.containerPerfilPublico .perfilPublicoTrabajos hr {
+  border: 1px solid #142850;
+}
+/* Perfil Trabajos */

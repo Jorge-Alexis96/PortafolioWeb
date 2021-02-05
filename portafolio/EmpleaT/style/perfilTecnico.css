@@ -1,0 +1,118 @@
+/* Perfil Usuario */
+.containerPerfilTecnico .perfilTecnico {
+  background-color: #142850;
+  border-radius: 10px;
+}
+
+.containerPerfilTecnico .perfilTecnico img {
+  height: 120px;
+  width: 120px;
+  border: 3px solid #f4f4f4;
+}
+
+.containerPerfilTecnico .perfilTecnico h4 {
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+.containerPerfilTecnico .perfilTecnico h5 {
+  color: #00A8CC;
+  font-weight: 600;
+}
+
+.containerPerfilTecnico .perfilTecnico span {
+  color: #f4f4f4;
+  font-size: 20px;
+}
+
+.containerPerfilTecnico .perfilTecnico span i {
+  color: #00A8CC;
+}
+
+.containerPerfilTecnico .perfilTecnico p {
+  color: #f4f4f4;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.containerPerfilTecnico .perfilTecnico .barra {
+  background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgb(254, 255, 0) 50%, rgba(69, 252, 69, 1) 100%);
+  height: 10px;
+  border-radius: 3px;
+}
+
+.containerPerfilTecnico .perfilTecnico .titlePerfil {
+  color: #feff00;
+}
+
+.containerPerfilTecnico .perfilTecnico hr {
+  border: 2px solid #00A8CC;
+}
+
+.containerPerfilTecnico .perfilTecnico h2{
+  color: #f4f4f4;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.containerPerfilTecnico .perfilTecnico .editarPerfil {
+  background-color: #f4f4f4;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.7s;
+}
+
+.containerPerfilTecnico .perfilTecnico .editarPerfil:hover {
+  background-color: #00A8CC;
+  color: #f4f4f4;
+}
+.containerPerfilTecnico .perfilTecnico .close span {
+  color: #142850;
+}
+
+.containerPerfilTecnico .perfilTecnico .modal-body .btnAñadir {
+  background-color: #00A8CC;
+  color: #f4f4f4;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.7s;
+}
+.containerPerfilTecnico .perfilTecnico .modal-body .btnAñadir:hover {
+  background-color: #142850;
+} 
+/* Perfil Usuario */
+
+/* Tabla Usuario */
+.tablaPerfil h3 {
+  font-weight: 600;
+  color: #142850;
+}
+
+.tablaPerfil .tablaHead {
+  background-color: #00A8CC;
+  color: #f4f4f4;
+}
+
+.tablaPerfil tbody {
+  background-color: #f4f4f4;
+  font-weight: 400;
+  color: #142850;
+}
+
+.tablaPerfil .containerCardsTrabajos .cardTrabajo {
+  width: 250px;
+  background-color: #142850;
+  border:none;
+  border-radius: 5px;
+}
+
+.tablaPerfil .containerCardsTrabajos .cardTrabajo img{
+  height: 200px;
+}
+
+.tablaPerfil .containerCardsTrabajos .cardTrabajo h5 {
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+/* Tabla Usuario */

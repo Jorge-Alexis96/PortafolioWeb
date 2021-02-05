@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <!-- Css style -->
+  <link rel="stylesheet" href="./style/style.css">
+  <!-- Css app -->
+  <link rel="stylesheet" href="./style/app.css">
+  <!-- font-Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-primary info-color newNav">
+      <a class="navbar-brand mr-3 logo" href="./index.html">Emplea-T</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active mr-5">
+            <a class="nav-link" href="./app.html">
+              Tecnicos
+            </a>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="./info.html">
+              ¿Quienes Somos?</a>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="#">
+              Iniciar Sesion</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Registrate </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+              <a class="dropdown-item" href="#">My account</a>
+              <a class="dropdown-item" href="#">Log out</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/.Navbar -->
+  </header>
+
+  <main>
+
+    <div class="container-fluid mainApp">
+      <div class="row justify-content-center">
+
+        <!-- Sidebar -->
+        <div class="col-xl-2 appSidebar">
+          <h3 class="text-center mt-2 mb-3">Especialidad</h3>
+          <form class="mb-2">
+            <input type="search" placeholder="Busqueda" class="busqueda">
+          </form>
+          <div class="list-group mb-2">
+            <a href="#" class="list-group-item">Carpinteros</a>
+            <a href="#" class="list-group-item">Albañiles</a>
+            <a href="#" class="list-group-item">Gasfiteros</a>
+            <a href="#" class="list-group-item">Cerrajeros</a>
+            <a href="#" class="list-group-item">Jardineros</a>
+            <a href="#" class="list-group-item">Limpieza</a>
+            <a href="#" class="list-group-item">Electrisista</a>
+            <a href="#" class="list-group-item">Tecnico computo</a>
+            <a href="#" class="list-group-item">Otros</a>
+          </div>
+
+          <hr>
+
+          <!-- <h3 class="text-center mt-2 mb-2">Distrito</h3> -->
+          <!-- CheckBox -->
+          <!-- <div class="checkList mb-2">
+            <div class="custom-control custom-checkbox bg-primary">
+              <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+              <label class="custom-control-label" for="defaultUnchecked">Default unchecked</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultUnchecke">
+              <label class="custom-control-label" for="defaultUnchecke">Default unchecked</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+              <label class="custom-control-label" for="defaultUnchecked">Default unchecked</label>
+            </div>
+          </div> -->
+          <!-- CheckBox -->
+        </div>
+        <!-- Sidebar -->
+
+        <!-- Cards Perfiles -->
+        <div class="col-xl-10 appCards">
+          <div class="container-fluid containerCards">
+            <div class="row justify-content-center">
+
+              <div class="card cardPerfiles mr-4 mb-4 mt-4">
+                <img src="./img/Field_Technicians_2.jpg" class="card-img-top imgTrabajo">
+                <div class="card-body text-center">
+                  <img src="./img/avatar/hombre-avatar-del-friki-104871313.jpg" class="rounded-circle cardPerfilTecnico" alt="avatar">
+                  <h5 class="card-title text-center mt-2"><a href="/perfilTecnicoPublico.html">Tecnico Carrillo</a></h5>
+                  <h6 class="card-title-profesion">Electrisista</h6>
+                  <p class="clasificacion">Calificacion:  <strong>75%</strong></p>
+                  <span><i class="fas fa-map-marker-alt mr-2"></i>Lince</span>
+                </div>
+              </div>
+
+              <div class="card cardPerfiles mr-4 mb-4 mt-4">
+                <img src="./img/Field_Technicians_2.jpg" class="card-img-top imgTrabajo">
+                <div class="card-body text-center">
+                  <img src="./img/avatar/hombre-avatar-del-friki-104871313.jpg" class="rounded-circle cardPerfilTecnico" alt="avatar">
+                  <h5 class="card-title text-center mt-2"><a href="/perfilTecnicoPublico.html">Tecnico Carrillo</a></h5>
+                  <h6 class="card-title-profesion">Electrisista</h6>
+                  <p class="clasificacion">Calificacion:  <strong>75%</strong></p>
+                  <span><i class="fas fa-map-marker-alt mr-2"></i>Lince</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Cards Perfiles -->
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer footer">
+      <div class="bgFooterRedes">
+        <div class="container">
+          <div class="row py-2 d-flex align-items-center">
+            <div class="col-md-12 text-center">
+              <a href=""><i class="fab fa-facebook-f text-white mr-4"></i></a>
+              <a href=""><i class="fab fa-google-plus-g text-white mr-4"></i></a>
+              <a href=""><i class="fab fa-youtube text-white mr-4"></i></a>
+              <a href=""><i class="fab fa-instagram text-white"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright text-center py-1 pt-3 footerCopy">
+        <p>#QuedateEnCasa - Emplea-T&copy; 2020</p>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

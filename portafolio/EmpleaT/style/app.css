@@ -1,0 +1,97 @@
+/* Sidebar */
+.mainApp .appSidebar {
+  background-color: #142850;
+}
+
+.mainApp .appSidebar h3 {
+  color: #00A8CC;
+  font-weight: 600;
+}
+
+.mainApp .appSidebar form .busqueda {
+  width: 100%;
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.mainApp .appSidebar form .busqueda:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+.mainApp .appSidebar a {
+  background-color: transparent;
+  border: none;
+  color: #F4F4F4;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+.mainApp .appSidebar a:hover {
+  background-color: #F4F4F4;
+  text-decoration: none;
+  color: #142850;
+  font-weight: 700;
+}
+
+.mainApp .appSidebar hr {
+  border: 1px solid #00A8CC;
+}
+/* Sidebar */
+
+/* Cards Perfiles */
+.mainApp .appCards {
+  border: 1px solid red;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles{
+  width: 300px;
+  background-color: #142850;
+  border: none;
+  border-radius: 5px;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .imgTrabajo{
+  height: 200px;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .card-body .cardPerfilTecnico {
+  height: 60px;
+  width: 60px;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .card-body .card-title a{
+  color: #F4F4F4;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .card-body .card-title-profesion {
+  color: #00A8CC;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .card-body .clasificacion {
+  font-weight: 600;
+  color: #F4F4F4;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .card-body .clasificacion strong {
+  font-size: 25px;
+  color: #00A8CC;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .card-body span{
+  color: #F4F4F4;
+  font-size: 20px;
+}
+
+.mainApp .appCards .containerCards .cardPerfiles .card-body span i {
+  color: #00A8CC;
+}
+/* Cards Perfiles */

@@ -1,0 +1,319 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+
+.newNav {
+  background-color: #00A8CC;
+  color: #f4f4f4;
+}
+
+.newNav .logo {
+  font-weight: 600;
+  color: #f4f4f4;
+}
+
+.newNav ul li a {
+  color: #f4f4f4;
+  transition: 0.7s;
+}
+
+.newNav ul li a:hover {
+  font-weight: 600;
+  color: #142850;
+  transition: 0.7s;
+}
+
+.newNav a svg {
+  height: 30px;
+  padding-bottom: 4px;
+}
+
+/* Navbar */
+
+/*---------------------------- Main---------------------------- */
+
+/* Buscador */
+
+.containerBuscador {
+  /* height: 250px; */
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(20, 40, 80, 0.75), rgba(20, 40, 80, 0.75)), url(/portafolio/EmpleaT/img/registo1.jpg);
+}
+
+/* .containerBuscador .buscador{
+		border: 1px solid red;
+	} */
+
+.containerBuscador .buscador h1 {
+  font-weight: 700;
+  color: #f4f4f4;
+}
+
+.containerBuscador .buscador input {
+  background-color: #f4f4f4;
+}
+
+.containerBuscador .buscador label {
+  font-weight: 300;
+  color: #f4f4f4;
+}
+
+.containerBuscador .buscador .botonBuscar {
+  font-weight: 600;
+  font-size: 25px;
+  background-color: #00A8CC;
+  color: #f4f4f4;
+  width: 100%;
+  padding: 0px;
+}
+
+.containerBuscador .buscador ul li strong {
+  color: #f4f4f4;
+}
+
+.containerBuscador .buscador ul li a {
+  font-weight: 700;
+  color: #f4f4f4;
+  background-color: #00A8CC;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.containerBuscador .buscador ul li a:hover {
+  color: #142850;
+}
+
+/* Buscador */
+
+/* Cards Random */
+
+.containerCardsrandom {
+  background-color: #f4f4f4;
+}
+
+.containerCardsrandom .cardsTitle h3 {
+  font-weight: 600;
+  color: #142850;
+}
+
+.containerCardsrandom .card {
+  border: none;
+  width: 300px;
+  /* height: 550px; */
+}
+
+.containerCardsrandom .card .card-img-top {
+  height: 200px;
+  /* display: block;
+  margin: auto; */
+  /* background: no-repeat center center fixed;
+  background-size: cover; */
+}
+
+.containerCardsrandom .card-body {
+  background-color: #142850;
+}
+
+.containerCardsrandom .card-body .imgAvatar{
+  height: 80px;
+  width: 80px;
+  border: 2px solid #f4f4f4;
+}
+
+.containerCardsrandom .card-body .card-title {
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+.containerCardsrandom .card-body h5 {
+  color: #00A8CC;
+  font-weight: 400;
+}
+
+.containerCardsrandom .card-body .textDesc {
+  color: #f4f4f4;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.containerCardsrandom .card-body .btnVer {
+  background-color: #00A8CC;
+  color: #f4f4f4;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.7s;
+}
+
+.containerCardsrandom .card-body .btnVer:hover {
+  background-color: #f4f4f4;
+  color: #142850;
+}
+
+.containerCardsrandom .indicador span i{
+  color: #142850;
+  font-size: 30px;
+}
+
+/* Cards Random */
+
+/* Quienes Somos */
+
+.containerDatos {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 168, 204, 0.75), rgba(0, 168, 204, 0.75)), url(/portafolio/EmpleaT/img/registo1.jpg);
+}
+
+/* .containerDatos .datos {
+		margin: 50px 0px;
+		border: 1px solid red;
+	} */
+
+.containerDatos .datos h3 {
+  font-weight: 600;
+  color: #f4f4f4;
+}
+
+.containerDatos .datos hr {
+  border: 2px solid #142850;
+}
+
+.containerDatos .datos p {
+  font-weight: 300;
+  color: #f4f4f4;
+}
+
+.containerDatos .datos .btnVer {
+  width: 50%;
+  background-color: #142850;
+  color: #f4f4f4;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+.containerDatos .datos .btnVer:hover {
+  background-color: #f4f4f4;
+  color: #142850;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+/* Quienes Somos */
+
+/* Formulario Contacto */
+
+.containerFormContacto {
+  background-color: #f4f4f4;
+}
+
+/* .containerFormContacto .formContacto{
+    border: 1px solid red;
+  } */
+
+.containerFormContacto .formContacto h3 {
+  font-weight: 400;
+  color: #142850;
+}
+
+.containerFormContacto .formContacto p {
+  font-weight: 300;
+  color: #142850;
+}
+
+.containerFormContacto .formContacto .formDatos label {
+  color: #142850;
+  font-weight: 600;
+}
+
+.containerFormContacto .formContacto .formDatos input {
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #142850;
+}
+
+.containerFormContacto .formContacto .formDatos .btnEnviar {
+  width: 50%;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #142850;
+  color: #f4f4f4;
+}
+
+.containerFormContacto .formContacto .formDatos .btnEnviar {
+  width: 50%;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #142850;
+  color: #f4f4f4;
+  transition: 0.7s;
+}
+
+.containerFormContacto .formContacto .formDatos .btnEnviar:hover {
+  background-color: #00A8CC;
+  transition: 0.7s;
+}
+
+/* Formulario Contacto */
+
+/* Protocolo Covid */
+
+.containerDatosCovid {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(20, 40, 80, 0.75), rgba(20, 40, 80, 0.75)), url(/portafolio/EmpleaT/img/mask-challenge-1-e1589802293174.jpg);
+}
+
+/* .containerDatosCovid .datos {
+		margin: 50px 0px;
+		border: 1px solid red;
+	} */
+
+.containerDatosCovid .datosCovid h3 {
+  font-weight: 600;
+  color: #f4f4f4;
+}
+
+.containerDatosCovid .datosCovid hr {
+  border: 2px solid #00A8CC;
+}
+
+.containerDatosCovid .datosCovid p {
+  font-weight: 300;
+  color: #f4f4f4;
+}
+
+.containerDatosCovid .datosCovid .btnVer {
+  width: 50%;
+  background-color: #00A8CC;
+  color: #f4f4f4;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+.containerDatosCovid .datosCovid .btnVer:hover {
+  background-color: #f4f4f4;
+  color: #142850;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+/* Protocolo Covid */
+
+/*---------------------------- Main----------------------------*/
+
+/*---------------------------- Footer ----------------------------*/
+
+.footer .bgFooterRedes {
+  background-color: #222831;
+}
+
+.footer .footerCopy {
+  background-color: #070708;
+  color: #f4f4f4b7;
+}
+
+/*---------------------------- Footer ----------------------------*/
